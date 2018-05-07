@@ -8,7 +8,9 @@
 #
 
 library(shiny)
-source("renorm.R")
+library(devtools)
+devtools::install_github("ufarcs-prod/mydatastory")
+library(mydatastory)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
